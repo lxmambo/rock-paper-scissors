@@ -1,0 +1,14 @@
+.container-3 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center; /*h2 centered*/
+}
+
+.flex-box-rps {
+    display: flex; /*every item inside this class is a flex item*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid blue;
+}
