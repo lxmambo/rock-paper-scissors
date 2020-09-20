@@ -55,4 +55,13 @@ function rpsFrontEnd(humanImgChoice,botImgChoice, finalMessage){
     document.getElementById('rock').remove();
     document.getElementById('paper').remove();
     document.getElementById('scissor').remove();
+
+    var humanDiv = document.createElement('div');
+    var botDiv = document.createElement('div');
+    var messageDiv = document.createElement('div');
+
+    //important use of single and double quotes in the src attribute
+    humanDiv.innerHTML = "<img src='" + imagesDataBase[humanImgChoice] + "'>";
+
+    document.getElementById('flex-box-rps-div').appendChild(humanDiv);
 }
